@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/48317ace59.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Proyecto Final</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logo.jpg" alt="logo">
+        <h1>Introducción al desarrollo web</h1>
+        <nav class="menu">
+            <a href="index.html"><strong>Inicio |</strong></a>
+            <a href="biografia.html"><strong>Biografía |</strong></a>
+            <a href="galeria.html"><strong>Galería |</strong></a>
+        </nav>
+    </header>
+    <main class="gallery" >
+        <section>
+            <h2>Galería</h2>
+            <nav>
+                <button id="familia-btn" onclick="showCategory('familia')">Familia</button>
+                <button id="hobbies-btn" onclick="showCategory('hobbies')">Hobbies</button>
+                <button id="paseos-btn" onclick="showCategory('paseos')">Paseos</button>
+            </nav>
+            <div id="folders">
+                <div class="category" id='familia'>
+                    <div class="photo"><img src="images/familia/fam1.jpg" alt="fam1"></div>
+                    <div class="photo"><img src="images/familia/fam2.jpg" alt="fam2"></div>
+                    <div class="photo"><img src="images/familia/fam3.jpg" alt="fam3"></div>
+                    <div class="photo"><img src="images/familia/fam4.jpg" alt="fam4"></div>
+                </div>
+                <div class="category" id='hobbies'>
+                    <div class="photo"><img src="images/hobbies/hob1.jpg" alt="hob1"></div>
+                    <div class="photo"><img src="images/hobbies/hob2.jpg" alt="hob2"></div>
+                    <div class="photo"><img src="images/hobbies/hob3.jpg" alt="hob3"></div>
+                    <div class="photo"><img src="images/hobbies/hob4.jpg" alt="hob4"></div>
+                </div>
+                <div class="category" id='paseos'>
+                    <div class="photo"><img src="images/paseos/pas1.jpg" alt="pas1"></div>
+                    <div class="photo"><img src="images/paseos/pas2.jpg" alt="pas2"></div>
+                    <div class="photo"><img src="images/paseos/pas3.jpg" alt="pas3"></div>
+                    <div class="photo"><img src="images/paseos/pas4.jpg" alt="pas4"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <small>&#169; 2021 Hecho por <strong>Andrea González</strong></small>
+        <nav>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </nav>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

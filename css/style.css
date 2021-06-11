@@ -1,0 +1,87 @@
+/* index style */
+
+body{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: block;
+    background-color:#B0C4DE;
+}
+
+h1, #logo{
+    display: inline-block;
+}
+
+#logo{
+    size: 300px;
+    border-radius: 8px;
+}
+
+#banner{
+    width: 100%;
+    height: auto;
+}
+
+header,footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.menu{
+    background-color: gray;
+    color: white;
+    font-size: medium;
+    text-align: left;
+    padding: 10px;
+}
+
+.index, .gallery, .biography{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(84,82,82,1) 100%);
+}
+
+.box{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid blue; 
+    size: 400px; 
+}
+
+.course, .done, .undone{
+    padding: 10px;
+}
+
+ul{
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+/* biografy style */
+
+#profile-photo, #read-content{
+    display: inline-block;
+}
+
+ #profile-photo{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* galery style */
+
+.photo{
+    display: inline-block;
+    margin: 10px 2px;
+}
+.photo img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
