@@ -5,7 +5,7 @@ function toggleRead() {
         readMoreContent.style.display = "none"
         readMoreButton.textContent = "Leer más..."
     } else {
-        readMoreContent.style.display === "block"
+        readMoreContent.style.display = "block"
         readMoreButton.textContent = "Leer menos..."
     }
 }
@@ -19,7 +19,7 @@ function showCategory(type){
     var hobbiesBtnCategory = document.getElementById("hobbies-btn");
     var paseosBtnCategory = document.getElementById("paseos-btn");
     switch(type){
-        case 'familia':
+        case 'paseos':
             familiaCategory.style.display="none";
             hobbiesCategory.style.display="none";
             paseosCategory.style.display="block";
