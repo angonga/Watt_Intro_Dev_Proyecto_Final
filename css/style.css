@@ -29,6 +29,10 @@ h3{
     height: auto;
 }
 
+#banner:hover{
+    transform: scaleX(-1);
+}
+
 header,footer {
     background-color: black;
     color: white;
@@ -41,7 +45,6 @@ small{
 
 footer{
     text-align: center;
-    /* margin-top: 20px; */
 }
 
 .menu{
@@ -51,7 +54,13 @@ footer{
     text-align: left;
     padding: 10px;
 }
-
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: mediumslateblue !important;
+}
 .index, .gallery, .biography{
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(84,82,82,1) 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -60,7 +69,6 @@ footer{
 .box{
     display: inline-block;
     padding: 5px;
-    border: 1px solid black; 
 }
 
 .done{
@@ -111,12 +119,6 @@ ul{
     padding: 15px;
     margin: 0 auto;
 }
-
-/* #profile-photo, #read-content{
-    display: inline-block;
-    padding: 15px;
-} */
-
  #profile-photo{
     width: 300px;
     height: 300px;
@@ -125,7 +127,6 @@ ul{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-right: 15px;
 }
-
 #read-content{
     text-align: justify;
     display: inline-block;
@@ -137,15 +138,20 @@ ul{
     text-align: justify;
     margin-left: 20px;
 }
-
+#first-paragraph{
+    color: pink;
+}
+#second-paragraph{
+    color: white;
+}
 
 
 /* galery style */
+
 .gallery{
     padding: 15px;
     margin: 0 auto;
 }
-
 .photo{
     display: inline-block;
     margin: 10px 2px;
@@ -156,11 +162,9 @@ ul{
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .photo img:hover {
     transform: scale(1.1);
 }
-
 h2{
     color: white;
     padding: 15px;
@@ -172,4 +176,21 @@ button{
     background-color: #0000FF;
     border-radius: 5px;
     font-size: 15px;
+}
+button:hover{
+    background-color: mediumslateblue !important;
+}
+#familia-btn{
+    margin-left: 10px;
+}
+
+#folders{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#hobbies{
+    display: none;
+}
+#paseos{
+    display: none;
 }
